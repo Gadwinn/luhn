@@ -114,3 +114,7 @@ Input is normalized to lowercase internally. Uppercase characters are accepted t
 Luhn::computeChecksum('A3F2', 16) === Luhn::computeChecksum('a3f2', 16); // true
 Luhn::isValid('A3F2D', 16);                                               // true
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
